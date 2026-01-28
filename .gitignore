@@ -30,3 +30,4 @@ venv/
 # If you generate large logs
 *.log
 EOF
+IIS_BIOBIZKAIA.pdf
