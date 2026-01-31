@@ -1,0 +1,58 @@
+{
+  "root": {
+    "relevant": {
+      "childhood_trauma": {
+        "childhood_trauma_physical_abuse": {},
+        "childhood_trauma_sexual_abuse": {},
+        "childhood_trauma_emotional_neglect": {}
+      },
+      "nutrition": {
+        "nutrition_omega3_intake": {},
+        "nutrition_vitamin_d_status": {},
+        "nutrition_ultra_processed_food": {}
+      }
+    },
+    "distractor": {
+      "colors": {
+        "colors_blue": {},
+        "colors_red": {},
+        "colors_green": {}
+      },
+      "chicken_soup": {
+        "chicken_soup_bowl": {},
+        "chicken_soup_recipe": {},
+        "chicken_soup_smell": {}
+      },
+      "computer": {
+        "computer_keyboard": {},
+        "computer_monitor": {},
+        "computer_mouse": {}
+      },
+      "floor": {
+        "floor_tile": {},
+        "floor_carpet": {},
+        "floor_wood": {}
+      },
+      "window": {
+        "window_glass": {},
+        "window_frame": {},
+        "window_curtains": {}
+      },
+      "pencil": {
+        "pencil_lead": {},
+        "pencil_eraser": {},
+        "pencil_shavings": {}
+      },
+      "bicycle": {
+        "bicycle_wheel": {},
+        "bicycle_chain": {},
+        "bicycle_handlebar": {}
+      },
+      "cloud": {
+        "cloud_cumulus": {},
+        "cloud_rain": {},
+        "cloud_shadow": {}
+      }
+    }
+  }
+}

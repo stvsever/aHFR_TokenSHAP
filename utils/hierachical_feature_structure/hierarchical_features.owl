@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://hierarchical_features_demo.org/ontology#root_distractor_colors_colors_blue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colors_blue</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://hierarchical_features_demo.org/ontology#root_distractor_colors"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hierarchical_features_demo.org/ontology#root_relevant_childhood_trauma_childhood_trauma_emotional_neglect">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">childhood_trauma_emotional_neglect</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://hierarchical_features_demo.org/ontology#root_relevant_childhood_trauma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hierarchical_features_demo.org/ontology#root">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">root</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hierarchical_features_demo.org/ontology#root_relevant_childhood_trauma_childhood_trauma_sexual_abuse">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">childhood_trauma_sexual_abuse</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://hierarchical_features_demo.org/ontology#root_relevant_childhood_trauma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hierarchical_features_demo.org/ontology#root_distractor_window">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">window</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://hierarchical_features_demo.org/ontology#root_distractor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hierarchical_features_demo.org/ontology#root_relevant_childhood_trauma">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">childhood_trauma</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://hierarchical_features_demo.org/ontology#root_relevant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hierarchical_features_demo.org/ontology#root_distractor_computer_computer_monitor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">computer_monitor</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://hierarchical_features_demo.org/ontology#root_distractor_computer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hierarchical_features_demo.org/ontology#root_relevant_nutrition_nutrition_vitamin_d_status">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nutrition_vitamin_d_status</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://hierarchical_features_demo.org/ontology#root_relevant_nutrition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hierarchical_features_demo.org/ontology#root_relevant_nutrition_nutrition_omega3_intake">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nutrition_omega3_intake</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://hierarchical_features_demo.org/ontology#root_relevant_nutrition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hierarchical_features_demo.org/ontology#root_distractor_floor_floor_tile">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">floor_tile</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://hierarchical_features_demo.org/ontology#root_distractor_floor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hierarchical_features_demo.org/ontology#root_distractor_window_window_glass">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">window_glass</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://hierarchical_features_demo.org/ontology#root_distractor_window"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hierarchical_features_demo.org/ontology#root_distractor_chicken_soup_chicken_soup_bowl">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_soup_bowl</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://hierarchical_features_demo.org/ontology#root_distractor_chicken_soup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hierarchical_features_demo.org/ontology#root_distractor_computer_computer_mouse">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">computer_mouse</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://hierarchical_features_demo.org/ontology#root_distractor_computer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hierarchical_features_demo.org/ontology#root_distractor_floor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">floor</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://hierarchical_features_demo.org/ontology#root_distractor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hierarchical_features_demo.org/ontology#root_distractor_pencil">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pencil</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://hierarchical_features_demo.org/ontology#root_distractor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hierarchical_features_demo.org/ontology#root_distractor_window_window_curtains">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">window_curtains</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://hierarchical_features_demo.org/ontology#root_distractor_window"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hierarchical_features_demo.org/ontology#root_distractor_pencil_pencil_eraser">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pencil_eraser</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://hierarchical_features_demo.org/ontology#root_distractor_pencil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hierarchical_features_demo.org/ontology#root_relevant_nutrition_nutrition_ultra_processed_food">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nutrition_ultra_processed_food</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://hierarchical_features_demo.org/ontology#root_relevant_nutrition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hierarchical_features_demo.org/ontology#root_distractor_cloud">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cloud</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://hierarchical_features_demo.org/ontology#root_distractor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hierarchical_features_demo.org/ontology#root_distractor_cloud_cloud_shadow">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cloud_shadow</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://hierarchical_features_demo.org/ontology#root_distractor_cloud"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hierarchical_features_demo.org/ontology#root_distractor_pencil_pencil_shavings">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pencil_shavings</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://hierarchical_features_demo.org/ontology#root_distractor_pencil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hierarchical_features_demo.org/ontology#root_distractor_colors">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colors</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://hierarchical_features_demo.org/ontology#root_distractor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hierarchical_features_demo.org/ontology#root_distractor_bicycle_bicycle_wheel">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bicycle_wheel</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://hierarchical_features_demo.org/ontology#root_distractor_bicycle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hierarchical_features_demo.org/ontology#root_distractor_chicken_soup_chicken_soup_smell">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_soup_smell</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://hierarchical_features_demo.org/ontology#root_distractor_chicken_soup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hierarchical_features_demo.org/ontology#root_distractor_cloud_cloud_rain">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cloud_rain</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://hierarchical_features_demo.org/ontology#root_distractor_cloud"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hierarchical_features_demo.org/ontology#root_relevant_childhood_trauma_childhood_trauma_physical_abuse">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">childhood_trauma_physical_abuse</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://hierarchical_features_demo.org/ontology#root_relevant_childhood_trauma"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hierarchical_features_demo.org/ontology#">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hierarchical Features Ontology</dc:title>
+    <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stijn Van Severen</dc:creator>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.0</owl:versionInfo>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hierarchical_features_demo.org/ontology#root_distractor_window_window_frame">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">window_frame</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://hierarchical_features_demo.org/ontology#root_distractor_window"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hierarchical_features_demo.org/ontology#root_distractor_bicycle_bicycle_handlebar">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bicycle_handlebar</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://hierarchical_features_demo.org/ontology#root_distractor_bicycle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hierarchical_features_demo.org/ontology#root_distractor_colors_colors_red">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colors_red</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://hierarchical_features_demo.org/ontology#root_distractor_colors"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hierarchical_features_demo.org/ontology#root_relevant">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">relevant</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://hierarchical_features_demo.org/ontology#root"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hierarchical_features_demo.org/ontology#root_distractor_cloud_cloud_cumulus">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cloud_cumulus</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://hierarchical_features_demo.org/ontology#root_distractor_cloud"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hierarchical_features_demo.org/ontology#root_distractor_computer_computer_keyboard">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">computer_keyboard</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://hierarchical_features_demo.org/ontology#root_distractor_computer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hierarchical_features_demo.org/ontology#root_distractor_colors_colors_green">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colors_green</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://hierarchical_features_demo.org/ontology#root_distractor_colors"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hierarchical_features_demo.org/ontology#root_distractor_floor_floor_carpet">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">floor_carpet</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://hierarchical_features_demo.org/ontology#root_distractor_floor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hierarchical_features_demo.org/ontology#root_distractor_pencil_pencil_lead">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pencil_lead</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://hierarchical_features_demo.org/ontology#root_distractor_pencil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hierarchical_features_demo.org/ontology#root_distractor_floor_floor_wood">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">floor_wood</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://hierarchical_features_demo.org/ontology#root_distractor_floor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hierarchical_features_demo.org/ontology#root_distractor_bicycle_bicycle_chain">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bicycle_chain</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://hierarchical_features_demo.org/ontology#root_distractor_bicycle"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hierarchical_features_demo.org/ontology#root_distractor_chicken_soup_chicken_soup_recipe">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_soup_recipe</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://hierarchical_features_demo.org/ontology#root_distractor_chicken_soup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hierarchical_features_demo.org/ontology#root_distractor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">distractor</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://hierarchical_features_demo.org/ontology#root"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hierarchical_features_demo.org/ontology#root_distractor_chicken_soup">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chicken_soup</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://hierarchical_features_demo.org/ontology#root_distractor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hierarchical_features_demo.org/ontology#root_distractor_bicycle">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bicycle</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://hierarchical_features_demo.org/ontology#root_distractor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hierarchical_features_demo.org/ontology#root_distractor_computer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">computer</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://hierarchical_features_demo.org/ontology#root_distractor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://hierarchical_features_demo.org/ontology#root_relevant_nutrition">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nutrition</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://hierarchical_features_demo.org/ontology#root_relevant"/>
+  </rdf:Description>
+</rdf:RDF>

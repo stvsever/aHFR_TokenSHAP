@@ -1,47 +1,42 @@
-cat > README.txt << 'EOF'
-HFR-TokenSHAP — Feature Importance Estimation Demo
-=================================================
+# HFR-TokenSHAP: A TokenSHAP-extended Algorithm for Hierarchical Feature Importance Estimation
 
-This repository contains the demo code and LaTeX paper draft for:
-"HFR-TokenSHAP: Hierarchically Restricted Feature TokenSHAP for Binary Phenotype Classification with Large Language Models"
 
-Requested local path reference (original location on the author machine):
-/Users/stijnvanseveren/PythonProjects/HFR_TokenSHAP/feature_importance_estimation/demonstration_results/visuals/example_prompt_with_FIEs.png
+This repository provides a **reproducible demonstration** of *feature-level* attribution for LLM-based binary phenotype classification prompts, together with the accompanying manuscript PDF.
 
-NOTE: In the GitHub repo, use the *relative* path instead:
-demonstration_results/visuals/example_prompt_with_FIEs.png
+**Manuscript (PDF):** `paper_HFR_TokenSHAP.pdf`  
+**Repository:** `stvsever/PAPER_HFR_TokenSHAP`
 
-Overlay description
--------------------
-The example_prompt_with_FIEs.png image contains an overlay visualization showing IG and HFR-TokenSHAP
-weighted feature-importance (FI) scores on top of an example pseudo-profile prompt. Clinically relevant
-features (sleep_quality, childhood_trauma_exposure) are emphasized relative to distractors.
+---
 
-How to run the demo
--------------------
-1) Create and activate a virtual environment
-   python3 -m venv .venv
-   source .venv/bin/activate
-   python -m pip install --upgrade pip
+## Abstract (Repository-level)
 
-2) Install dependencies
-   pip install -r requirements.txt
+Token-level attribution methods (e.g., gradient-based saliency) can assign high importance to prompt scaffolding (e.g., headers, separators, boilerplate) even when the scientific question is **which structured features drive the decision**. **HFR-TokenSHAP** restricts Shapley “players” to semantically meaningful **feature nodes** (optionally organized into hierarchical groups) and evaluates contributions via a **decision-aligned value function** (e.g., label log-odds). The result is an explanation over *feature units* rather than over all prompt tokens. This hierarchically restricted feature (HFR) extension reduces the computational burden of Monte Carlo Shapley estimation by restricting the sampling space to feature-level hierarchy nodes, rather than individual prompt tokens that are not the explanatory object of interest.
 
-3) Run the demo
-   python demo_run.py
+---
 
-Notes:
-- If you hit Hugging Face cache / disk issues, you can clear:
-  rm -rf ~/.cache/huggingface
+## Figure: Example Prompt Overlay
 
-Code pointers
--------------
-- demo runner: demo_run.py
-- Monte Carlo Shapley (grouped / restricted): utils/group_shapley.py
-- Integrated Gradients utilities: utils/ig_attribution.py
+The following figure 1 shows a qualitative example prompt with an overlay of feature-importance scores (Integrated Gradients vs. HFR-TokenSHAP-style restricted Shapley), illustrating increased emphasis on clinically relevant features such as `sleep_quality` and `childhood_trauma_exposure` relative to distractor “word-features”.
 
-Outputs
--------
-The demo writes tables into a configured TABLES_DIR in demo_run.py.
-Make sure TABLES_DIR points to a valid location on your machine.
-EOF
+![Example prompt overlay](https://github.com/stvsever/PAPER_HFR_TokenSHAP/blob/main/demonstration_results/visuals/example_prompt_overlay.png)
+
+---
+
+## Repository Structure
+
+- `utils/demo_run.py`  
+  Main entry point. Generates pseudo-profiles, constructs prompts, computes:
+  1) Integrated Gradients (IG) feature importances,  
+  2) Monte Carlo Shapley feature importances under a *feature-restricted* player set (HFR-TokenSHAP-style),  
+  and writes tables/plots to `TABLES_DIR`.
+
+- `utils/ig_attribution.py`  
+  Model loading utilities, decision scoring (e.g., log-odds), and IG helper functions.
+
+- `utils/group_shapley.py`  
+  Monte Carlo Shapley estimation via permutation sampling over feature “players” (with optional grouping / hierarchical restriction).
+
+- `demonstration_results/`  
+  Generated tables and visuals (e.g., prompt overlays, aggregated plots).
+
+---
