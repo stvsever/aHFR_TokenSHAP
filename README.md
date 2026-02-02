@@ -33,7 +33,7 @@ We introduce **aHFR-TokenSHAP**, a task-specific extension of TokenSHAP for **bi
 
 Figure 1 shows a qualitative example prompt with an overlay of weighted feature-importance scores (Integrated Gradients + aHFR-TokenSHAP-style restricted Shapley's), illustrating increased emphasis on clinically relevant features relative to distractor “word-features”.
 
-![Example prompt overlay](https://github.com/stvsever/PAPER_HFR_TokenSHAP/blob/main/demonstration_results/visuals/example_prompt_overlay.png)
+![Example prompt overlay](https://github.com/stvsever/PAPER_HFR_TokenSHAP/blob/main/demonstration_results/visuals/prompt_with_aHFR_TokenSHAP_squares.png)
 
 ---
 
